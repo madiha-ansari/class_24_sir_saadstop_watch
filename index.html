@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        h1{
+            display: inline-block;
+            margin-left: 45px;
+            width: 80px;
+            
+        }
+    </style>
+
+</head>
+<body>
+<!-- method
+1 set interval    chalta hi rehata ha time dana perta ha bar bar cala ga 2 min k bad qayamat tak chlta raha ga 
+2 set time out    time dana perta ha 2 min ka bad ik dafa
+3 clear interval
+4 clear time out ya function ha-->
+
+<!-- set interval  ko clear interval roky ga
+set timeout    ko  clear time out rokA ga-->
+
+
+    <!-- topic stop watch -->
+<h2>stop watch</h2>
+
+<div>
+    <h1 id="min">0</h1>
+    <h1 id="sec">0</h1>
+    <h1 id="millisec">0</h1>
+    <br><br>
+    <button id="btn" onclick="start();">start</button>    
+    <button id="btn" onclick="stop();">stop</button>
+    <button id="btn">restart</button>
+</div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
