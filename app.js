@@ -40,7 +40,7 @@ function start(){
             miliSeconds = 0;
         }
         else if(seconds >= 5){
-            minutes++
+            minutes++:
             getMins.innerHTML = minutes;
             seconds = 0;
         }
